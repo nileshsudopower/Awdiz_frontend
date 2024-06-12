@@ -1,6 +1,7 @@
 import React from "react";
 import "./../styles/InlineStyling.css";
 
+
 const InlineStyling = () => {
   const styles = { color: "yellow", fontSize: "50px" };
   return (

@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
 import { Routes, Route } from "react-router-dom";
 import Home from './Home';
@@ -17,6 +17,13 @@ import CounterUsingFP from './04-06/CounterusingFP';
 import FunctionProp from './04-06/FunctionProp';
 import StyledComponents from './04-06/StyledComponents';
 import InlineStyling from './04-06/InlineStyle';
+import Todo from './06-06/Todo';
+import Register from './08-06/Register';
+import NewRegister from './09-06/NewRegister';
+import NewLogin from './08-06/NewLogin';
+import Registation from './23-05/Registration';
+import NewLogin1 from './09-06/NewLogin1';
+
 function App() {
   return (
     <div className="App">
@@ -40,6 +47,13 @@ function App() {
         <Route path="/function-prop" element={<FunctionProp />} />
         <Route path="/styled-components" element={<StyledComponents />} />
         <Route path="/inline-styles" element={<InlineStyling />} />
+        <Route path="/todo" element={<Todo />} />
+        <Route path="/register" element={<Register />} />
+        <Route path="/new-login" element={<NewLogin />} />
+        <Route path="/new-register" element={<NewRegister />} />
+        <Route path="/new-login-1" element={<NewLogin1 />} />
+        <Route path="/registation" element={<Registation />} />
+
       </Routes>
     </div>
   );
